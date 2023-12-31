@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/single/motorcycle_road_mountains_164733_3840x2400.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    color: black;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .flex2{
+        display: flex;
+        padding:10px;
+
+       flex-direction: column;
+      }
+      .center {
+        margin: auto;
+        width: 70%;
+        border: 3px solid rgb(250, 188, 74);
+        padding: 10px;
+      }
+.logo img{
+    margin-top:20px;
+    height: 120px;
+    width:140px;
+  }
+.container h1{
+   
+    color:black;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(252, 20, 140);
+}
+
+.content{
+    position:static;
+    color: seashell;
+    margin-top: 11%;
+    margin-left: 15%;
+    
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    
+}
+
+.search input{
+    padding: 20px;
+    width: 500px;
+    border: 0;
+    outline: none;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 28%;
+}
+.content {
+
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.submit a{
+    padding: 17px 24px;
+    color: #fff;
+    background-color: rgb(252, 20, 140);
+    text-decoration: none;
+}
+.about_head{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 30px;
+    font-size: xx-large;
+    
+}
+.about{
+    padding:160px;
+    color:white;
+    
+}
+.about_para{
+    padding:80px;
+    font-size:x-large;
+}
+.contact_para{
+    padding:80px;
+    font-size:x-large;
+    color: ;
+}
+.list{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: block;
+ }
+ .listItem {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+ }
+ .listItem:hover {
+    background-color: lightgrey;
+ }
+ .flex3{
+    display: flex;
+    
+
+   flex-direction: row;
+  }
+  .img{
+      height: 150px;
+      width:200px;
+  }
+  .pad{
+      padding-left: 290px;
+      
+      
+  }
+  .paddi{
+    padding-top: 290px;
+  }
+
+  .bike-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: antiquewhite;
+}
+.bike-image {
+    max-width: 100%;
+    height: auto;
+}
+.bike-details {
+    margin-top: 20px;
+}
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    height: 400px; /* Set the height as needed */
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+ 
+}
+
+@keyframes slide {
+    0% { left: 0; }
+    20% { left: -100%; }
+    40% { left: -200%; }
+    60% { left: -300%; }
+    80% { left: -400%; }
+    100% { left: -500%; }
+}
+/* ... Your existing CSS ... */
+
+.welcome-message {
+    text-align: center;
+}
+
+.welcome-message h2 {
+    font-size: 2em;
+    color:white;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+    color:white;
+}
+
+/* ... Your existing CSS ... */
+.padd{
+    padding-top: 50px;
+    padding-left: 50px ;
+}
+.paddin{
+    padding:25px;
+}

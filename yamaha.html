@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki-Garage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+                        <img src="data:image/png;base64,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" alt="">
+
+
+        </div>
+        <div class="flex2">
+            <h1><u>Wiki-Garage </u></h1>
+            <p ><i>Wheels may be two but power is crazy</i></p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="C:\Users\harsha\Desktop\vac\index.html">HOME</a></li>
+         
+                <li><a href="C:\Users\harsha\Desktop\vac\collection.html">COLLECTION</a></li>
+                <li><a href="C:\Users\harsha\Desktop\vac\about.html">ABOUT</a></li>
+                <li><a href="C:\Users\harsha\Desktop\vac\contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="flex3">
+        <div class="bike-container">
+            <h1>Yamaha R15 V4</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/103795/r15-right-front-three-quarter-16.png?isig=0&q=80" >
+    
+            <div class="bike-details">
+                <h2>R15 V4 key highlights</h2>
+                <p>Cost: ₹ 1,82,556</p>
+                <p>Engine Capacity: 155 cc</p>
+                <p>Mileage: 51,4kmpl</p>
+                <p>Transmission: 6 Speed Manual</p>
+                <p>Kerb Weight: 141 kg</p>
+                <p>Fuel Tank Capacity: 11 litres</p>
+                <p>Seat Height: 815 mm</p>
+            </div>
+        </div>
+        
+        <div class="bike-container">
+            <h1>Yamaha FZ FI</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/yamaha-fz-bs-vi-[2021]1676625390455.jpg?q=80" >
+    
+            <div class="bike-details">
+                <h2>Bullet 350 key highlights</h2>
+                <p>Cost: ₹ 1,15,985</p>
+                <p>Engine Capacity: 149 cc</p>
+                <p>Mileage: 48 kmpl</p>
+                <p>Transmission: 5 Speed Manual</p>
+                <p>Kerb Weight: 135 kg</p>
+                <p>Fuel Tank Capacity: 13 litres</p>
+                <p>Seat Height: 790 mm</p>
+            </div>
+        </div>
+        <div class="bike-container">
+            <h1>Yamaha R15S</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard-20231680846943037.jpg?q=80" >
+    
+            <div class="bike-details">
+                <h2>R15S key highlights</h2>
+                <p>Cost: ₹ 1,65,756</p>
+                <p>Engine Capacity: 155 cc</p>
+                <p>Mileage: 45 kmpl</p>
+                <p>Transmission: 6 Speed Manual</p>
+                <p>Kerb Weight: 142 kg</p>
+                <p>Fuel Tank Capacity: 11 litres</p>
+                <p>Seat Height: 815 mm</p>
+            </div>
+        </div>
+    </div>
+    <div class="flex3">
+        <div class="bike-container">
+            <h1>Yamaha FZS Fi V4</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/141961/fzs-fi-v4-right-front-three-quarter-2.jpeg?isig=0&q=80" >
+    
+            <div class="bike-details">
+                <h2>FZS Fi V4  key highlights</h2>
+                <p>Cost: ₹ 1,29,982</p>
+                <p>Engine Capacity: 149 cc</p>
+                <p>Mileage: 60 kmpl</p>
+                <p>Transmission: 5 Speed Manual</p>
+                <p>Kerb Weight: 136 kg</p>
+                <p>Fuel Tank Capacity: 13 litres</p>
+                <p>Seat Height: 790 mm</p>
+            </div>
+        </div>
+        
+        <div class="bike-container">
+            <h1>Yamaha MT 15 V2</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/115871/mt-15-right-front-three-quarter-6.png?isig=0&q=80" >
+    
+            <div class="bike-details">
+                <h2>MT 15 V2 key highlights</h2>
+                <p>Cost: ₹ 1,68,208</p>
+                <p>Engine Capacity: 155 cc</p>
+                <p>Mileage: 47.5 kmpl</p>
+                <p>Transmission: 6 Speed Manual</p>
+                <p>Kerb Weight: 141 kg</p>
+                <p>Fuel Tank Capacity: 10 litres</p>
+                <p>Seat Height: 810 mm</p>
+            </div>
+        </div>
+        <div class="bike-container">
+            <h1>Yamaha FZ X</h1>
+    
+            <img class="bike-image" src="https://imgd.aeplcdn.com/664x374/n/cw/ec/98259/fz-x-right-front-three-quarter-2.png?isig=0&q=80" >
+    
+            <div class="bike-details">
+                <h2>FZ X key highlights</h2>
+                <p>Cost: ₹ 1,38,089 </p>
+                <p>Engine Capacity: 149 cc</p>
+                <p>Mileage: 48 kmpl</p>
+                <p>Transmission: 5 Speed Manual</p>
+                <p>Kerb Weight: 139 kg</p>
+                <p>Fuel Tank Capacity: 10 litres</p>
+                <p>Seat Height: 810 mm</p>
+            </div>
+        </div>
+    </div>
+   
+</div>
+</body>
+</html>
